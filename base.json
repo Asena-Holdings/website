@@ -1,0 +1,228 @@
+{
+  "fav": "./assets/favicon.png",
+  "title": "ASENA HOLDINGS LTD",
+  "theme": {
+    "colors": {
+      "bgPrimary": "#FFFFFF",
+      "bgSecondary": "#FFFFFF",
+      "textLogo":"#0057A8",
+      "textNav":"#0057A8",
+      "textPrimary": "#0057A8",
+      "textSecondary": "#3F8EDB",
+      "border": "rgba(255, 255, 255, 0.25)",
+      "inputBg": "rgba(112, 114, 116, 0.25)",
+      "placeholder": "#0057A8",
+
+
+      "mobileNav":"rgba(255, 255, 255, 0.76)",
+      "mobileNavBorder":"rgba(255, 255, 255, 0.12)",
+
+      "accentPrimary": "#0057A8",
+      "accentSecondary": "#0057A8",
+      "accentGradient": "-webkit-linear-gradient(left, #0057A8, #0057A8)",
+      "buttonBg": "linear-gradient(90deg, #0e80f6 0%, #0ed8f6 50%, #0e80f6)",
+      "buttonText": "#0057A8",
+      "buttonHoverBorder": "#132c4c",
+      "link": "#0e80f6",
+      "linkHover": "#0ed8f6",
+
+      "errorBg": "#fff",
+      "errorText": "#383838",
+      "errorBorder": "#ffb900",
+
+      "overlay": "#FFFFFF",
+      "overlayOpacity": 0.2,
+      "overlayBlocks": 0.7
+    },
+    "fonts": {
+      "main": "Poppins, sans-serif",
+      "heading": "Roboto, sans-serif",
+      "headingWeight": 200,
+      "files": [
+        {
+          "name": "Poppins",
+          "path": "./assets/fonts/Poppins-Regular.woff2",
+          "format": "woff2",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "name": "Roboto",
+          "path": "./assets/fonts/Roboto-Light.woff2",
+          "format": "woff2",
+          "weight": "300",
+          "style": "normal"
+        }
+      ]
+    }
+
+  },
+  "pages": [
+    {
+      "type": "main",
+      "name": "Home",
+      "title": "New Horizon in Clinical Trials Management.",
+      "text":
+      "Senior-level oversight that strengthens CRO performance, reduces operational friction and keeps studies moving with discipline and confidence.",
+      "buttons": [
+        {
+          "name":"Our Focus",
+          "link": "Focus"
+        },
+        {
+          "name":"Get in Touch",
+          "link": "Contacts"
+      }],
+      "background": "url(./assets/images/Home-back.jpg)"
+    },
+    {
+      "type": "blocks",
+      "subtype": 1,
+      "name": "About",
+      "background": "url(./assets/images/Home-back.jpg)",
+      "text": [
+        {
+          "title":"Intro",
+          "text" : "We believe clinical operations work best when teams have clarity, structure and trusted leadership. ASENA provides senior-level guidance that keeps work organized and transparent."
+        },
+        {
+          "title":"Mission",
+          "text" : "We help sponsors, CROs and internal teams improve alignment, communication and daily execution — so studies progress smoothly and decisions are made with confidence."
+        },
+        {
+          "title":"Vision",
+          "text" : "We envision clinical environments where teams collaborate effectively, understand priorities and deliver research that is reliable, efficient and focused on patient impact."
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Operational Discipline",
+          "text": ["Consistency, structure and reliable execution across every stage of a study."],
+          "imageURL": "./assets/images/workflow.png"
+        },
+        {
+          "title": "Evidence-Driven Decisions",
+          "text": ["Using data, facts and documented insight to guide actions, not assumptions."],
+          "imageURL": "./assets/images/decision.png"
+        },
+        {
+          "title": "Transparent Oversight",
+          "text": ["Clear communication, visible progress and accountability shared across teams."],
+          "imageURL": "./assets/images/communication.png"
+        },
+        {
+          "title": "Patient-Centric Thinking",
+          "text": ["Every operational decision supports safety, quality and meaningful clinical outcomes."],
+          "imageURL": "./assets/images/patient.png"
+        },
+        {
+          "title": "Cross-Team Alignment",
+          "text": ["Keeping sponsors, CROs and internal teams moving in the same direction with shared priorities."],
+          "imageURL": "./assets/images/alignment.png"
+        },
+        {
+          "title": "Proactive Risk Awareness",
+          "text": ["Identifying issues early and addressing them before they slow down studies."],
+          "imageURL": "./assets/images/incident.png"
+        }
+      ]
+    },
+    {
+      "type": "blocks",
+      "subtype": 2,
+      "name": "Focus",
+      "background": "url(./assets/images/Home-back.jpg)",
+      "text": [{
+        "title":"How We Create Value",
+        "text" : "Clinical environments are complex, fast-moving and highly regulated. ASENA strengthens the areas where clarity, alignment and senior oversight matter most. Our focus is on helping teams work with structure, discipline and confidence — ensuring that sponsors get the best outcomes from their CROs and operational partners."
+      }],
+      "blocks": [
+        {
+          "title": "Leadership Alignment",
+          "text": ["Ensuring sponsors, CROs and internal teams share the same direction and expectations."],
+          "imageURL": "./assets/images/leadership.png"
+        },
+        {
+          "title": "Operational Clarity",
+          "text": ["Bringing structure to workflows, responsibilities and communication lines."],
+          "imageURL": "./assets/images/clarity.png"
+        },
+        {
+          "title": "Risk Awareness",
+          "text": ["Identifying problems early and guiding teams toward practical, low-friction solutions."],
+          "imageURL": "./assets/images/risk.png"
+        },
+        {
+          "title": "Decision Support",
+          "text": ["Helping leaders make informed, timely and confident decisions."],
+          "imageURL": "./assets/images/decision1.png"
+        },
+        {
+          "title": "Guiding Principles",
+          "text": [
+            "Clarity before action",
+            "Alignment at every level",
+            "Early risk visibility",
+            "Structured communication",
+            "Consistent follow-through"],
+          "imageURL": "./assets/images/compass.png"
+        }
+      ]
+    },
+    {
+      "type": "text-image",
+      "name": "Offer",
+      "background": "url(./assets/images/Home-back.jpg)",
+      "subtitle": "SMART TRIALS. HUMAN VALUES.",
+      "title":"Our Offer",
+      "text": [
+      "Clinical operations require structure, clear communication and reliable coordination between all parties involved.",
+      "ASENA provides senior-level oversight to ensure sponsors receive reliable, high-quality results from their CROs. Our role is to bring clarity and disciplined direction to complex environments.",
+      "We help clients get the most value from their CROs by setting expectations, streamlining processes and ensuring accountability.",
+      "By managing the interface between sponsors, CROs and internal teams, we improve decision-making, highlight risks early and maintain structured oversight throughout the lifecycle of a project. This ensures that objectives remain aligned and that the client stays informed, protected and in control.",
+      "Every organization and every study is different. We adapt our support to each context, focusing on practical guidance, structured execution and long-term operational resilience — so that clients receive clarity, confidence and maximum value from their partnerships."
+      ],
+      "imageURL": "./assets/images/Offer.jpg"
+    },
+    {
+      "type": "text",
+      "name": "Approach",
+      "background": "url(./assets/images/Home-back.jpg)",
+      "subtitle": "STRENGTHENING OPERATIONS THAT MATTER",
+      "title": "Approach",
+      "text": [
+        "We see operational support as a partnership. Our approach combines senior-level expertise with structured guidance, clear communication and steady oversight. We help teams navigate complexity, reduce friction and keep projects moving with discipline and confidence.",
+        "Steps (4-stage model):",
+        "1. Listening & Assessment — Understanding goals, challenges, team dynamics and operational gaps.",
+        "2. Structure & Alignment — Clarifying roles, improving processes and creating shared direction.",
+        "3. Oversight & Execution Support — Maintaining communication, supporting decision-making and tracking progress.",
+        "4. Long-Term Partnership — Helping teams adapt, improve resilience and stay consistent over time."
+      ],
+      "quotes": ["Not just expertise — a commitment to strengthening teams that deliver."]
+    },
+    {
+      "type": "contact",
+      "name": "Contacts",
+      "textSmall": "Want to work with us?",
+      "textBig": "Contact Us",
+      "imageURL": "./assets/images/contact.jpg",
+      "buttonIcon": "./assets/images/check-circle.svg",
+      "footer": {
+        "address": "4 Edgecot Grove, London, England, N15 5HD",
+        "links" : [
+          {
+            "name": "Linkedin",
+            "link": "linkedin.com",
+            "icon": "./assets/images/linkedin-1.png"
+          },
+          {
+            "name": "Facebook",
+            "link": "facebook.com",
+            "icon": "./assets/images/facebook-1.png"
+          }
+      ]
+      },
+      "email": "yourmail@gmail.com"
+    }
+  ]
+}
